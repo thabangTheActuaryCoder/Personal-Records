@@ -11,6 +11,7 @@ A central, version-controlled store for my personal records.
 | [`Qualifications/`](Qualifications/) | Degree certificates, diplomas, proof-of-qualification letters, professional certifications (e.g. CFA, ASSA exemptions) |
 | [`Academic-Records/`](Academic-Records/) | Official transcripts and academic records (UFS, UCT) |
 | [`Reference-Letters/`](Reference-Letters/) | Reference and recommendation letters from supervisors, employers, and academics |
+| [`Thesis/`](Thesis/) | Dissertations and theses — `Honours/`, `MSc/`, `PhD/` |
 
 ## Suggested naming convention
 
