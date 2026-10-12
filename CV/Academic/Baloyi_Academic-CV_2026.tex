@@ -1,0 +1,351 @@
+%-------------------------
+% Academic CV in LaTeX
+% Author : Baloyi Thabang Bongani Junior
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{needspace}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%----------FONT OPTIONS----------
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Document links (GitHub)
+\newcommand{\ghuser}{https://github.com/thabangTheActuaryCoder}
+\newcommand{\recs}{\ghuser/Academic-Records/blob/master}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSingleSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+% Space between consecutive entries within a section
+% (keeps an entry's heading together with its first lines)
+\newcommand{\entryGap}{\vspace{6pt}\needspace{6\baselineskip}}
+
+% Blue underlined document link: \doclink{url}{label}
+\newcommand{\doclink}[2]{\href{#1}{\color{blue}\underline{#2}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING----------
+
+
+\begin{center}
+    {\huge Baloyi Thabang Bongani Junior} \\ \vspace{2pt}
+    {\large\textit{Resume}} \\ \vspace{4pt}
+    {+27 (79) 346 8463} ~\textbar~
+    \href{mailto:Baloyibongani1@gmail.com}{\color{blue}{Baloyibongani1@gmail.com}} \\ \vspace{1pt}
+    \href{https://www.linkedin.com/in/thabang-bongani-junior-baloyi-2622b0286/}{\color{blue}{linkedin.com/in/thabang-bongani-junior-baloyi}} ~\textbar~
+    \href{https://github.com/thabangTheActuaryCoder}{\color{blue}{github.com/thabangTheActuaryCoder}}
+    \vspace{-7pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{\color{airforceblue}EDUCATION}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of the Witwatersrand}{Braamfontein, ZA}
+      {Doctor of Philosophy, Mathematical Statistics \& Actuarial Sciences (Full Dissertation)}{Jan 2027 -- Present}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Dissertation: ``TBD''}}
+      \resumeItemListEnd
+    \entryGap
+    \resumeSubheading
+      {University of the Free State}{Bloemfontein, ZA}
+      {Master of Science, Mathematical Statistics (Full Dissertation)}{Jan 2026 -- Dec 2026}
+      \resumeItemListStart
+            \resumeItem{\normalsize{GPA: 80\%  (WITH DISTINCTION)}}
+            \resumeItem{\normalsize{Dissertation: ``Understanding Health Insurance Cost Predictions Using Deep Neural Networks, Monte Carlo Simulation and Shapley Values''}}
+            \resumeItem{\normalsize{\doclink{\recs/Thabang\%20Baloyi\%20letter\%2010\%20September\%202026.pdf}{UFS Completion Letter} ~\textbar~ \doclink{\recs/UV_ACADREC_S\%20\%28Baloyi\%20Thabang\%20MSc\%29.pdf}{UFS Academic Record} ~\textbar~ \doclink{\ghuser/Msc-Mathematical-Statistics-Dissertation/blob/main/Baloyi_TBJ_MSc_Mathematical_Statistics_Dissertation_2026.pdf}{MSc Dissertation}}}
+      \resumeItemListEnd
+    \entryGap
+    \resumeSubheading
+      {University of Cape Town}{Cape Town, ZA}
+      {Bachelor of Science Honours, Statistics and Data Science, minor Actuarial Sciences}{Graduated Dec 2025}
+      \resumeItemListStart
+            \resumeItem{\normalsize{GPA: 74\%}}
+            \resumeItem{\normalsize{Thesis: ``Mean-Variance Hedging with Neural Networks using Vector AutoRegression (VAR) Models as the Underlying Sample Path Generator''}}
+            \resumeItem{\normalsize{Supervisors: Yuri Robbertze and Jake Stangroom}}
+            \resumeItem{\normalsize{Major Courses: Analytics (Supervised \& Unsupervised Learning), Multivariate Analysis, Statistical Computing, Actuarial Financial Economics, Portfolio Theory, Operational Research, Time Series, Advanced Probability Theory, Likelihood, Bayesian Analysis}}
+            \resumeItem{\normalsize{\doclink{\recs/UCT\%20TRANSCRIPT\%202025.pdf}{UCT Transcript} ~\textbar~ \doclink{\recs/Proof\%20of\%20Qualification\%20-\%20BSc.\%20Hons\%20Statistics\%20and\%20Data\%20Sciences.pdf}{Proof of Qualification} ~\textbar~ \doclink{\ghuser/BSc-Honours-Thesis-Mean-Variance-Hedging}{Thesis Repository}}}
+      \resumeItemListEnd
+    \entryGap
+    \resumeSubheading
+      {University of Cape Town}{Cape Town, ZA}
+      {Bachelor of Commerce, Management Studies}{Graduated Mar 2023}
+      \resumeItemListStart
+            \resumeItem{\normalsize{GPA: 65\%}}
+            \resumeItem{\normalsize{\doclink{\recs/UCT\%20TRANSCRIPT\%202025.pdf}{UCT Transcript} ~\textbar~ \doclink{\recs/UCT\%20CERTIFICATE.pdf}{BCom Certificate}}}
+      \resumeItemListEnd
+    \entryGap
+    \resumeSubheading
+      {University of the Free State}{Bloemfontein, ZA}
+      {Bachelor of Science, Actuarial Sciences \textup{(Incomplete)}}{2016 -- 2017}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Status: Not completed; first-year coursework passed, several modules with distinction}}
+            \resumeItem{\normalsize{\doclink{\recs/UV_ACADREC_S\%20\%28Baloyi\%20Thabang\%20MSc\%29.pdf}{UFS Academic Record}}}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{2pt}
+
+%-----------RESEARCH-----------
+\section{\color{airforceblue}RESEARCH}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {MSc Dissertation}{Jan 2026 -- Dec 2026}
+      {University of the Free State, Department of Mathematical Statistics \& Actuarial Science}{Bloemfontein, ZA}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Title: ``Understanding Health Insurance Cost Predictions Using Deep Neural Networks, Monte Carlo Simulation and Shapley Values''}}
+            \resumeItem{\normalsize{Training a bias-free deep neural network to predict health insurance costs, combining Monte Carlo simulation for input uncertainty quantification and Shapley values for model-agnostic interpretability}}
+            \resumeItem{\normalsize{Integrating a three-layer empirical framework (predictive, distributional, attributional) to bridge deep learning prediction with explainable actuarial modelling}}
+            \resumeItem{\normalsize{Areas: Health insurance cost prediction, deep neural networks, Monte Carlo simulation, Shapley values, explainable machine learning, actuarial modelling}}
+            \resumeItem{\normalsize{Supervisor: Dr JM Blomerus}}
+            \resumeItem{\normalsize{Dissertation: \doclink{\ghuser/Msc-Mathematical-Statistics-Dissertation/blob/main/Baloyi_TBJ_MSc_Mathematical_Statistics_Dissertation_2026.pdf}{Full Text (PDF)} ~\textbar~ \doclink{\ghuser/Msc-Mathematical-Statistics-Dissertation}{GitHub Repository}}}
+      \resumeItemListEnd
+    \entryGap
+
+    \resumeSubheading
+      {BSc Honours Thesis}{Feb -- Nov 2024}
+      {University of Cape Town, Department of Statistical Sciences}{Cape Town, ZA}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Title: ``Mean-Variance Hedging with Neural Networks using Vector AutoRegression (VAR) Models as the Underlying Sample Path Generator''}}
+            \resumeItem{\normalsize{Co-authored with Ditiro Letsoalo; supervised by Yuri Robbertze and Jake Stangroom}}
+            \resumeItem{\normalsize{Proposed a novel approach integrating neural networks with VAR models for mean-variance hedging in incomplete markets}}
+            \resumeItem{\normalsize{Demonstrated lower hedging errors and better risk-return trade-offs compared to traditional methods through extensive simulations and empirical analyses}}
+            \resumeItem{\normalsize{Areas: Mean-variance hedging, neural networks, VAR models, financial risk management, multivariate time series}}
+            \resumeItem{\normalsize{Repository: \doclink{\ghuser/BSc-Honours-Thesis-Mean-Variance-Hedging}{GitHub}}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{4pt}
+
+%-----------TEACHING EXPERIENCE-----------
+\section{\color{airforceblue}TEACHING EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lecturer (Mathematics)}{Aug 2025 -- Dec 2025}
+      {Cape Peninsula University of Technology, Department of Maritime Studies}{Cape Town, ZA}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Took over the Mathematics (Vector Calculus I) module of the Bachelor of Marine Engineering programme mid-year, preparing a large cohort for the final examination}}
+            \resumeItem{\normalsize{Identified and closed learning gaps left after the previous lecturer's departure while completing the remaining syllabus under a constrained timeframe}}
+            \resumeItem{\normalsize{Prepared lecture notes and tutorials; set the main and reassessment summative examinations; marked tests and examinations and submitted all marks on time}}
+            \resumeItem{\normalsize{Delivered structured lecture sessions and provided academic support to students, often beyond standard working hours}}
+      \resumeItemListEnd
+    \entryGap
+
+    \resumeSubheading
+      {Teaching Assistant / Tutor}{2022 -- 2024}
+      {University of Cape Town, Department of Mathematics and Applied Mathematics}{Cape Town, ZA}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Ran weekly tutorial sections for first- and second-year mathematics and engineering mathematics courses}}
+            \resumeItem{\normalsize{Invigilated tests and examinations, marked assessments, and provided academic support to undergraduate students across multiple courses}}
+      \resumeItemListEnd
+      \vspace{2pt}
+
+      \resumeSubSubheading{Courses tutored:}{}
+      \resumeItemListStart
+            \resumeItem{\normalsize{\textbf{2024:} MAM1004F (Mathematics 1004), MAM1006H, MAM1012F (Mathematics 1012), MAM1021S (Mathematics 1B for Engineers), MAM1031F/33F, MAM2012S (Differential Equations 2DE), MAM2083F (Vector Calculus for Engineers), MAM2084F/S (Linear Algebra \& DE for Engineers), MAM2085F (Vector Calculus for Aspect)}}
+            \vspace{1pt}
+            \resumeItem{\normalsize{\textbf{2023:} MAM1004F (Introduction to Functions and Calculus), MAM1021S (Mathematics 1B for Engineers)}}
+            \vspace{1pt}
+            % TODO: add the 2022 course codes, then uncomment
+            % \resumeItem{\normalsize{\textbf{2022:} MAMxxxxx (Course name)}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{2pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{\color{airforceblue}TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming:}}{ \normalsize{Python (TensorFlow, PyTorch, NumPy, pandas, scikit-learn, matplotlib), R, SQL, MATLAB, STATA, Java, VBA, LaTeX}} \\
+      \vspace{1.2pt}
+
+     \textbf{\normalsize{Statistical \& Mathematical:}}{ \normalsize{Statistical Modelling, Machine Learning, Deep Learning, Time Series Analysis, Multivariate Analysis, Bayesian Analysis, Stochastic Calculus, Portfolio Theory, Optimisation}} \\
+      \vspace{1.2pt}
+
+     \textbf{\normalsize{Tools \& Platforms:}}{ \normalsize{Git, GitHub, Jupyter Notebook, VS Code, AWS, Azure, Docker, Power BI, Tableau, Microsoft Excel}}
+
+     }}
+ \end{itemize}
+ \vspace{-2pt}
+
+%-----------ACTUARIAL EXEMPTIONS-----------
+\section{\color{airforceblue}ACTUARIAL EXEMPTIONS (ASSA)}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \normalsize{A111 -- Actuarial Statistics \hfill A112 -- Business Economics} \\
+      \vspace{1.2pt}
+     \normalsize{A113 -- Business Finance \hfill A211 -- Mathematical Finance}
+     }}
+ \end{itemize}
+ \vspace{-2pt}
+
+%-----------HONOURS & AWARDS---------------
+\section{\color{airforceblue}HONOURS \& AWARDS}
+
+  \resumeItemListStart
+    \resumeItem{\normalsize{Dean's List, University of the Free State}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Best Aggregate Average Actuarial Science, University of the Free State}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Best Aggregate Average Actuarial Science, Moshal Scholarship}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{GoldenKey International Society}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Top 3 Learner at Nghonyama High School, Grade 1--12}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Moshal Scholarship}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{J\"urgen Klauss Bathe Leadership Scholarship}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{UCT Postgraduate Funding Scholarship}}
+  \resumeItemListEnd
+
+\vspace{4pt}
+
+%-----------VOLUNTEERING---------------
+\section{\color{airforceblue}ACADEMIC SERVICE \& VOLUNTEERING}
+
+      \resumeItemListStart
+        \resumeItem{\normalsize{\textbf{UCT Mathematics Competition} -- Volunteered as organiser/invigilator, 2019, 2023}}
+        \vspace{-3pt}
+        \resumeItem{\normalsize{\textbf{Tutor, Grade 8 and 9} -- Adopt-a-school Foundation, 2021}}
+      \resumeItemListEnd
+
+\vspace{4pt}
+
+%-----------REFERENCES---------------
+\section{\color{airforceblue}REFERENCES}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Ms Samkelisiwe Ntuli}} \hfill \normalsize{ntulisa@cput.ac.za ~\textbar~ +27 21 440 5769} \\
+     \normalsize{\textit{Acting Head of Department, Department of Maritime Studies, Cape Peninsula University of Technology}} \\
+      \vspace{6pt}
+     \textbf{\normalsize{Thomas van Heerden}} \hfill \normalsize{thomas.vanheerden@uct.ac.za ~\textbar~ +27 21 650 3200} \\
+     \normalsize{\textit{Senior Lecturer, Department of Mathematics and Applied Mathematics, University of Cape Town}} \\
+      \vspace{6pt}
+     \normalsize{Reference letters available upon request.}
+     }}
+ \end{itemize}
+
+\end{document}
