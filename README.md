@@ -20,7 +20,7 @@ A central, version-controlled store for my personal records.
 | [`Academic-Records/`](Academic-Records/) | Official transcripts and academic records (UFS, UCT) |
 | [`Reference-Letters/`](Reference-Letters/) | Reference and recommendation letters from supervisors, employers, and academics |
 | [`Thesis/`](Thesis/) | Dissertations and theses — `Honours/`, `MSc/`, `PhD/` |
-| [`CV/`](CV/) | CVs with LaTeX source and compiled PDF — `Academic/` (academic positions, PhD) and `Corporate/` (industry roles) |
+| [`CV/`](CV/) | CVs with LaTeX source and compiled PDF — `Academic/` (academic positions, PhD), `Corporate/` (industry roles), and `Mixed/` (hybrid academic + industry posts, e.g. lecturer roles requiring both teaching/research and industry experience) |
 
 ## Suggested naming convention
 
