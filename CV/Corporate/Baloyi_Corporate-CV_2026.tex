@@ -19,7 +19,9 @@
 \usepackage{graphicx}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
+% glyphtounicode is a pdfTeX feature (improves ATS text extraction);
+% guard it so the source also compiles under XeTeX/LuaTeX (e.g. tectonic).
+\ifdefined\pdfglyphtounicode\input{glyphtounicode}\fi
 
 \RequirePackage{tikz}
 \RequirePackage{xcolor}
@@ -62,7 +64,7 @@
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generated pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+\ifdefined\pdfgentounicode\pdfgentounicode=1\fi
 
 %-------------------------
 % Custom commands
