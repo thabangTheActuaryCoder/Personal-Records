@@ -1,0 +1,376 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Baloyi Thabang Bongani Junior
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+% glyphtounicode is a pdfTeX feature (improves ATS text extraction);
+% guard it so the source also compiles under XeTeX/LuaTeX (e.g. tectonic).
+\ifdefined\pdfglyphtounicode\input{glyphtounicode}\fi
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%----------FONT OPTIONS----------
+\usepackage{charter}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \color{airforceblue}\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\ifdefined\pdfgentounicode\pdfgentounicode=1\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSingleSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING----------
+
+
+\begin{center}
+    {\huge Baloyi Thabang Bongani Junior} \\ \vspace{2pt}
+    {\large\textit{Quantitative Modelling \textbar~ Mathematical Statistics \textbar~ AI \& Data Engineering}} \\ \vspace{4pt}
+    {079 346 8463} ~\textbar~
+    \href{mailto:Baloyibongani1@gmail.com}{\color{blue}{Baloyibongani1@gmail.com}} \\ \vspace{1pt}
+    \href{https://www.linkedin.com/in/thabang-bongani-junior-baloyi-2622b0286/}{\color{blue}{linkedin.com/in/thabang-bongani-junior-baloyi}} ~\textbar~
+    \href{https://github.com/thabangTheActuaryCoder}{\color{blue}{github.com/thabangTheActuaryCoder}}
+    \vspace{-7pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{PROFESSIONAL SUMMARY}
+\vspace{4pt}
+{\small
+\noindent
+Quantitative and AI engineering professional with an MSc in Mathematical Statistics completed
+with distinction, supported by academic training in Statistics and Data Science, Actuarial Science,
+and quantitative finance. Experience spans actuarial pricing and risk assessment, statistical
+modelling, model validation, data engineering, production AI systems, and full-stack software development.
+
+\vspace{4pt}
+
+\noindent
+Skilled in Python, R, SQL, C\#, VBA, TensorFlow, scikit-learn, time series analysis,
+machine learning, optimisation, REST APIs, testing, CI/CD, and cloud analytics. Built
+decision-support systems combining SAP-derived planning data, demand and capacity modelling,
+mixed-integer optimisation, and AI-assisted workflows.
+
+\vspace{4pt}
+
+\noindent
+Combines rigorous quantitative analysis with end-to-end engineering and clear business
+communication to investigate model behaviour, validate outputs, automate analytical workflows,
+and translate complex results into practical decisions.
+}
+\vspace{-2pt}
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\vspace{4pt}
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of the Free State}{Bloemfontein, ZA}
+      {Master of Science, Mathematical Statistics}{Jan 2026 -- Oct 2026}
+      \resumeItemListStart
+            \resumeItem{\normalsize{GPA: 80\% (WITH DISTINCTION) ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UV_ACADREC_S\%20\%28Baloyi\%20Thabang\%20MSc\%29.pdf}{\color{blue}\underline{UFS Academic Record}}}}
+      \resumeItemListEnd
+
+    \vspace{2pt}
+    \resumeSubheading
+      {University of Cape Town}{Cape Town, ZA}
+      {Bachelor of Science Honours, Statistics and Data Science, minor in Actuarial Science}{Dec 2025}
+      \resumeItemListStart
+            \resumeItem{\normalsize{GPA: 74\% ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UCT\%20TRANSCRIPT\%202025.pdf}{\color{blue}\underline{UCT Transcript Honours}} ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/Proof\%20of\%20Qualification\%20-\%20BSc.\%20Hons\%20Statistics\%20and\%20Data\%20Sciences.pdf}{\color{blue}\underline{Proof of Qualification}}}}
+      \resumeItemListEnd
+    \vspace{2pt}
+    \resumeSubheading
+      {University of Cape Town}{Cape Town, ZA}
+      {Bachelor of Commerce, Management Studies}{Dec 2022}
+      \resumeItemListStart
+            \resumeItem{\normalsize{GPA: 70\%
+            ~\textbar~
+            \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UCT\%20TRANSCRIPT\%202025.pdf}{\color{blue}\underline{UCT Transcript Undergraduate}} ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UCT\%20CERTIFICATE.pdf}{\color{blue}\underline{UCT Certificate}}}}
+      \resumeItemListEnd
+    \vspace{2pt}
+    \resumeSubheading
+      {University of the Free State}{Bloemfontein, ZA}
+      {Bachelor of Science, Actuarial Sciences \textup{(Incomplete)}}{2016 -- 2017}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Not completed ~\textbar~ GPA: 80\% ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UV\_ACADREC\_S\%202026.pdf}{\color{blue}\underline{UFS Academic Record}}}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \vspace{-4pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\vspace{4pt}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming \& Data Science:}}{ \normalsize{Python, R, SQL, MATLAB, STATA, Java, C\#, VBA, LaTeX, TensorFlow, Keras, scikit-learn, NumPy, pandas, matplotlib, Spark, PySpark, Databricks}} \\
+      \vspace{1.2pt}
+
+     \textbf{\normalsize{Statistical \& Analytical:}}{ \normalsize{Statistical Modelling, Regression, Classification, Time Series Analysis, Multivariate Analysis, Bayesian Analysis, Machine Learning, Neural Networks, Random Forests, Portfolio Theory, Hypothesis Testing, Monte Carlo Simulation, Mixed-Integer Programming, Linear Programming, Critical Path Analysis, Supply Chain Optimisation, Root Cause Analysis}} \\
+      \vspace{1.2pt}
+
+     \textbf{\normalsize{Data, APIs \& BI:}}{ \normalsize{PostgreSQL, Amazon Redshift, Snowflake, Delta Lake, dbt, pgvector, Azure Table Storage, Azure Blob Storage, Azure Data Lake Storage Gen2, REST APIs, Flask, Power BI, Tableau, Microsoft Excel, Data Storytelling, KPI Reporting}} \\
+      \vspace{1.2pt}
+
+     \textbf{\normalsize{Cloud, DevOps \& Tools:}}{ \normalsize{AWS (EC2, S3, Lambda, Glue, Redshift), Azure (VMs, App Service, Container Apps, OpenAI, Blob Storage, Data Factory, Synapse Analytics, Fabric), Docker, Git, GitHub Actions, Bitbucket Pipelines, Azure DevOps, SonarQube, Jira, Jupyter Notebook, VS Code, Postman}}
+
+     }}
+ \end{itemize}
+ \vspace{-10pt}
+
+  %-----------EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+\vspace{4pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Full Stack AI Engineer}{}
+      {4S4, Cape Town, ZA (Full Time, Hybrid)}{Jun 2026 -- Present}
+      \resumeItemListStart
+            \resumeItem{\normalsize{\textbf{Clients:} Rheinmetall Denel Munition, Old Mutual Bank, Ooba, Deloitte}}
+            \resumeItem{\normalsize{Led development of EAPP, an enterprise demand and production-planning platform that integrates SAP-derived demand, stock and open supply, multi-level BOM explosion, finite work-centre capacity, lead-time calculation, inventory optimisation, and cross-plant scheduling}}
+            \resumeItem{\normalsize{Built explainable optimisation workflows using priority-based allocation, critical-path analysis, Monte Carlo lead-time simulation, linear programming, and lexicographic mixed-integer programming to identify capacity constraints and recommend feasible production, overtime, transfer, and delivery plans}}
+            \resumeItem{\normalsize{Implemented Tiffany, an embedded voice and text AI planning co-pilot integrating OpenAI speech and realtime services with Anthropic Claude, registered planning commands, structured outputs, audit trails, and human confirmation for governed actions}}
+            \resumeItem{\normalsize{Develop and maintain data integration pipelines, including SAP S/4HANA 2023-to-warehouse extraction, ETL workflows, and semantic layers}}
+            \resumeItem{\normalsize{Build and orchestrate agentic and automation workflows using n8n, multi-agent systems, and RAG pipelines}}
+            \resumeItem{\normalsize{Collaborate with client stakeholders to translate business requirements into technical solutions and own features across architecture, implementation, testing, deployment, and support}}
+            \resumeItem{\normalsize{Support DevOps practices including CI/CD, Azure cloud deployment, and version-control workflows}}
+      \resumeItemListEnd
+      \vspace{7pt}
+
+    \resumeSubheading
+      {Artificial Intelligence Engineer}{}
+      {Full Stack, Cape Town, ZA (Full Time)}{Mar 2023 -- May 2026}
+      \resumeItemListStart
+            \resumeItem{\normalsize{\textbf{Clients:} Virgin Active : Virgin Active UK and Virgin Active SA, Expandly}}
+            \resumeItem{\normalsize{Design and build AI-driven, cloud-native applications on AWS and Azure, integrating LLM services, data workflows, and Keras-based models into production systems}}
+            \resumeItem{\normalsize{Develop backend systems, REST APIs, and data services for RAG pipelines, embeddings, semantic search, profile management, recommendation workflows, and analytics-ready outputs}}
+            \resumeItem{\normalsize{Build data and ML workflows using Python, SQL, Spark, PostgreSQL, pgvector, Azure Table Storage, Azure OpenAI, Databricks, PySpark, Delta Lake concepts, and OLLAMA-based embedding services}}
+            \resumeItem{\normalsize{Support cloud data engineering patterns including data pipeline development, data modelling, batch processing, lakehouse-style organisation, and medallion architecture principles}}
+            \resumeItem{\normalsize{Implement CI/CD-supported testing, build, code quality, and deployment workflows using Bitbucket Pipelines, GitHub Actions, Azure DevOps, pytest, SonarQube, and endpoint smoke tests}}
+            \resumeItem{\normalsize{Integrate AI and ML models into Flask services, production APIs, and cloud-hosted backend applications with monitoring, validation checks, and data quality controls}}
+            \resumeItem{\normalsize{Build AI safety and compliance components, including guardrails, risk-pattern detection, medical caution logic, emergency response routing, and auditable decision workflows}}
+            \resumeItem{\normalsize{Collaborate with testers, engineers, product stakeholders, and business users on architecture decisions, QA validation, cloud design, root cause analysis, and AI/data platform strategy}}
+      \resumeItemListEnd
+      \vspace{7pt}
+
+    \resumeSubheading
+      {AI Machine Learning Engineer Intern}{}
+      {Full Stack, Cape Town, ZA}{Jan 2023 -- Mar 2023}
+      \resumeItemListStart
+            \resumeItem{\normalsize{Performed exploratory data analysis on e-commerce and member engagement datasets using pandas, NumPy, matplotlib, and SQL to identify patterns for model development and data quality improvement}}
+            \resumeItem{\normalsize{Built and evaluated classification and regression models, including Logistic Regression, Random Forests, and XGBoost, using scikit-learn}}
+            \resumeItem{\normalsize{Developed preprocessing and feature engineering pipelines for missing-value handling, categorical encoding, feature scaling, data validation, and model-ready data preparation}}
+            \resumeItem{\normalsize{Assisted with Azure OpenAI integrations in backend applications, including prompt engineering, response parsing, prototype conversational AI workflows, and cloud-hosted data persistence}}
+            \resumeItem{\normalsize{Created data visualisations and analytical reports using matplotlib and Power BI to communicate model performance, data patterns, and business insights}}
+            \resumeItem{\normalsize{Supported Flask REST API deployment on Azure App Service, endpoint testing with Postman, and basic CI/CD validation}}
+            \resumeItem{\normalsize{Conducted end-to-end automation testing using WebdriverIO, covering authentication, dashboard interactions, and data validation across web applications}}
+      \resumeItemListEnd
+      \vspace{7pt}
+\resumeSubheading
+  {Junior Data Scientist}{}
+  {Discovery Limited, Cape Town, ZA (Full Time)}{Jan 2022 -- Dec 2022}
+  \resumeItemListStart
+    \resumeItem{Developed, trained, and evaluated machine learning models using Python and SQL on large-scale healthcare and operational datasets to optimize client scheme services.}
+    \resumeItem{Engineered features from structured and unstructured data sources, implementing predictive models to enhance member engagement and operational workflows.}
+    \resumeItem{Established model monitoring protocols to track drift, performance degradation, and data pipeline integrity across production database environments.}
+    \resumeItem{Collaborated with clinical, actuarial, and business stakeholders to translate domain requirements into statistical solutions and communicated quantitative insights to non-technical users.}
+  \resumeItemListEnd
+\resumeSubheading
+  {Data Analyst Intern}{}
+  {Discovery Limited, Cape Town, ZA}{Jan 2021 -- Dec 2021}
+  \resumeItemListStart
+    \resumeItem{Analysed large customer datasets using Advanced Excel and SQL to extract behavioral patterns and deliver actionable insights for customer engagement strategies.}
+    \resumeItem{Collaborated cross-functionally with Health Actuarial, Business Intelligence, and Management Information (MI) teams to align quantitative findings with business objectives.}
+    \resumeItem{Assisted in maintaining and evaluating customer engagement models, ensuring analytical reliability and data integrity across operational workflows.}
+    \resumeItem{Designed automated dashboards and recurring analytical reports to present core customer and health engagement metrics to stakeholders.}
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-4pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\vspace{4pt}
+    \resumeItemListStart
+        \vspace{0.5pt}
+        \resumeItem{\normalsize{\textbf{EAPP / Tiffany Strategic Planning Co-Pilot} -- Built a full-stack planning application integrating SAP-derived demand, sales-order traceability, stock and supply netting, recursive BOM explosion, finite-capacity planning, backward scheduling, and lead-time estimation. Developed MILP/MIP, critical-path, and Monte Carlo optimisation workflows for production, overtime, inventory, transfers, and delivery plans. Embedded a voice and text AI co-pilot with governed, audited commands. Tech stack: React, Python, SQL, Azure Container Apps, OpenAI Realtime and speech APIs, Anthropic Claude, HiGHS.} \href{https://eapp-tiffany.nicemushroom-b9780b64.southafricanorth.azurecontainerapps.io/}{\color{blue}\underline{Live Demo}}}
+        \vspace{2pt}
+
+        \resumeItem{\normalsize{\textbf{Virgin Active AI Wellness Coach} -- Built an Azure-hosted conversational fitness coach delivering personalised workouts, classes, adaptive coaching, progressive profiles, and structured goals. Implemented recommendation data flows, medical-clearance guardrails, real-time streaming, and persistent sessions. Tech stack: Python, Flask, Azure OpenAI, Azure App Service, Azure Table and Blob Storage, PostgreSQL, pgvector, REST APIs.} \href{https://dev-wa-san-va-personalisation.azurewebsites.net/?member_id=550e8400-e29b-41d4-a716-446655440001}{\color{blue}\underline{Live Demo}}}
+        \vspace{2pt}
+
+        \resumeItem{\normalsize{\textbf{ExpandlyAI} -- Developed an enterprise e-commerce automation platform integrating Amazon SP-API with C\#/.NET 10 services and an Angular Nx frontend. Implemented an Azure OpenAI proxy, cost-calculation services, Azure Table Storage persistence, WebdriverIO end-to-end tests, and Azure DevOps CI/CD.}}
+    \resumeItemListEnd
+\vspace{-6pt}
+
+%-----------ACTUARIAL EXEMPTIONS-----------
+\section{ACTUARIAL EXEMPTIONS (ASSA)}
+\vspace{4pt}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \normalsize{A112 -- Business Economics} \\
+      \vspace{1.2pt}
+     \normalsize{A113 -- Business Finance}
+     }}
+ \end{itemize}
+ \vspace{-10pt}
+
+%-----------CERTIFICATIONS-----------
+\section{CERTIFICATIONS}
+\vspace{4pt}
+\resumeItemListStart
+    \resumeItem{\normalsize{CFA Level I (In Progress)}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Microsoft Certified: Fabric Data Engineer Associate (DP-700), 2026 -- data ingestion and transformation, analytics solution management, and monitoring and optimisation on Microsoft Fabric using SQL, PySpark, and KQL}}
+\resumeItemListEnd
+\vspace{-4pt}
+
+%-----------HONOURS & AWARDS---------------
+\section{HONOURS \& AWARDS}
+\vspace{4pt}
+  \resumeItemListStart
+    \resumeItem{\normalsize{Dean's List, University of the Free State}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Best Aggregate Average Actuarial Science, University of the Free State}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Best Aggregate Average Actuarial Science, Moshal Scholarship}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{GoldenKey International Society}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Top 3 Learner at Nghonyama High School, Grade 1--12}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Moshal Scholarship}}
+    \vspace{-3pt}
+    \resumeItem{\normalsize{Jurgen Klauss Bathe Leadership Scholarship}}
+  \resumeItemListEnd
+
+\vspace{-4pt}
+
+%-----------VOLUNTEERING---------------
+\section{VOLUNTEERING}
+\vspace{4pt}
+      \resumeItemListStart
+        \resumeItem{\normalsize{\textbf{Tutor, Grade 8 and 9} -- Adopt-a-school Foundation, {2021}}}
+        \vspace{-3pt}
+
+        \resumeItem{\normalsize{\textbf{UCT Mathematics Competition} -- {2019 -- 2023}}}
+      \resumeItemListEnd
+
+\vspace{-4pt}
+
+%-----------REFERENCES---------------
+\section{REFERENCES}
+\vspace{4pt}
+     \vspace{2pt}
+     \textbf{\normalsize{Additional references available upon request.}}
+\end{document}
