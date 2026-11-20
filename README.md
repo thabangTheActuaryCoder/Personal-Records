@@ -6,6 +6,8 @@
   <img src="assets/ufs.svg" alt="University of the Free State" height="60"/>
   &nbsp;&nbsp;&nbsp;
   <img src="assets/up.png" alt="University of Pretoria" height="60"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/unisa.png" alt="University of South Africa" height="60"/>
 </p>
 
 > 🔒 **Private repository.** Personal and confidential documents. Do not make public.
