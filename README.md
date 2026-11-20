@@ -1,11 +1,11 @@
 # Personal Records — Thabang Baloyi
 
 <p align="left">
-  <img src="assets/wits.jpg" alt="University of the Witwatersrand" height="60"/>
-  &nbsp;&nbsp;&nbsp;
   <img src="assets/uct.svg" alt="University of Cape Town" height="60"/>
   &nbsp;&nbsp;&nbsp;
   <img src="assets/ufs.svg" alt="University of the Free State" height="60"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/up.png" alt="University of Pretoria" height="60"/>
 </p>
 
 > 🔒 **Private repository.** Personal and confidential documents. Do not make public.
