@@ -1,0 +1,300 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Baloyi Thabang Bongani Junior
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+% glyphtounicode is a pdfTeX feature (improves ATS text extraction);
+% guard it so the source also compiles under XeTeX/LuaTeX (e.g. tectonic).
+\ifdefined\pdfglyphtounicode\input{glyphtounicode}\fi
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%----------FONT OPTIONS----------
+% T1 keeps Charter bold and italic shapes available under XeTeX (tectonic).
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \color{airforceblue}\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\ifdefined\pdfgentounicode\pdfgentounicode=1\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSingleSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING----------
+
+\begin{center}
+    {\huge Baloyi Thabang Bongani Junior} \\ \vspace{2pt}
+    {\large\textit{Quantitative Analytics \textbar~ Statistical and Risk Modelling \textbar~ Portfolio Insights}} \\ \vspace{4pt}
+    {079 346 8463} ~\textbar~
+    \href{mailto:Baloyibongani1@gmail.com}{\color{blue}{Baloyibongani1@gmail.com}} \\ \vspace{1pt}
+    \href{https://www.linkedin.com/in/thabang-bongani-junior-baloyi-2622b0286/}{\color{blue}{linkedin.com/in/thabang-bongani-junior-baloyi}} ~\textbar~
+    \href{https://github.com/thabangTheActuaryCoder}{\color{blue}{github.com/thabangTheActuaryCoder}}
+    \vspace{-7pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{PROFESSIONAL SUMMARY}
+\vspace{4pt}
+{\small
+\noindent
+Quantitative analyst with more than five years of experience in financial services, insurance and
+analytics, an MSc in Mathematical Statistics with distinction, an Honours degree in Statistics and
+Data Science (minor in Actuarial Science), and a PhD in Mathematical Statistics in progress. Develops,
+validates and monitors statistical, forecasting and machine learning models in Python, SQL, R and
+Advanced Excel, with training in Value at Risk, Expected Shortfall, credit risk models, Monte Carlo
+simulation and explainable machine learning. Works across the full model lifecycle and turns
+quantitative results into clear insights for Credit, Risk, Finance and business stakeholders.
+}
+\vspace{-2pt}
+%-----------EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+\vspace{4pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Full Stack AI Engineer}{}
+      {4S4, Cape Town, ZA (Full Time, Hybrid)}{Jun 2026 to Nov 2026}
+      \resumeItemListStart
+            \resumeItem{\small{\textbf{Clients:} Old Mutual Bank, Ooba, Deloitte, Rheinmetall Denel Munition}}
+            \resumeItem{\small{Built explainable quantitative decision models using Monte Carlo lead-time simulation, critical-path analysis, linear programming and lexicographic mixed-integer programming to identify constraints and recommend feasible plans}}
+            \resumeItem{\small{Developed and maintained data extraction, transformation and validation pipelines, including SAP S/4HANA 2023-to-warehouse extraction, ETL workflows and semantic layers that feed analytical and reporting outputs}}
+            \resumeItem{\small{Implemented a governed AI co-pilot using large language models, structured outputs, audit trails and human confirmation before any action is applied}}
+            \resumeItem{\small{Translated client requirements into technical solutions and owned features across design, implementation, testing, deployment and support}}
+      \resumeItemListEnd
+      \vspace{4pt}
+
+    \resumeSubheading
+      {Artificial Intelligence Engineer}{}
+      {Full Stack, Cape Town, ZA (Full Time)}{Mar 2023 to May 2026}
+      \resumeItemListStart
+            \resumeItem{\small{\textbf{Clients:} Virgin Active UK, Virgin Active SA, Expandly}}
+            \resumeItem{\small{Built data and machine learning workflows using Python, SQL, Spark, PySpark, Databricks and PostgreSQL, covering data preparation, data modelling, batch processing and analytics-ready outputs}}
+            \resumeItem{\small{Deployed machine learning models into production services on AWS and Azure with monitoring, validation checks and data quality controls}}
+            \resumeItem{\small{Implemented testing and code-quality controls using pytest, SonarQube, endpoint smoke tests and CI/CD pipelines in GitHub Actions, Bitbucket Pipelines and Azure DevOps}}
+            \resumeItem{\small{Built risk and compliance components, including guardrails, risk-pattern detection, escalation routing and auditable decision workflows}}
+      \resumeItemListEnd
+      \vspace{4pt}
+
+    \resumeSubheading
+      {AI Machine Learning Engineer Intern}{}
+      {Full Stack, Cape Town, ZA}{Jan 2023 to Mar 2023}
+      \resumeItemListStart
+            \resumeItem{\small{Built and evaluated Logistic Regression, Random Forest and XGBoost models with scikit-learn, and reported model performance to stakeholders in Power BI}}
+      \resumeItemListEnd
+      \vspace{4pt}
+
+    \resumeSubheading
+      {Junior Data Scientist}{}
+      {Discovery Limited, Cape Town, ZA (Full Time)}{Jan 2022 to Dec 2022}
+      \resumeItemListStart
+        \resumeItem{\small{Developed, trained and evaluated statistical and machine learning models using Python and SQL on large-scale healthcare and operational datasets to optimise client scheme services}}
+        \resumeItem{\small{Established model monitoring protocols to track drift, performance degradation and data pipeline integrity across production database environments}}
+        \resumeItem{\small{Worked with clinical, actuarial and business stakeholders to translate requirements into statistical solutions, and communicated quantitative insights to non-technical users}}
+      \resumeItemListEnd
+      \vspace{4pt}
+
+    \resumeSubheading
+      {Data Analyst Intern}{}
+      {Discovery Limited, Cape Town, ZA}{Jan 2021 to Dec 2021}
+      \resumeItemListStart
+        \resumeItem{\small{Analysed large customer datasets using Advanced Excel and SQL to identify behavioural trends and deliver insights for engagement strategies}}
+        \resumeItem{\small{Designed automated dashboards and recurring reporting packs on customer and health engagement metrics for Health Actuarial, Business Intelligence and Management Information teams}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-4pt}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\vspace{4pt}
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Pretoria}{Jan 2027 to Present}
+      {Doctor of Philosophy, Mathematical Statistics}{In progress ~\textbar~ Supervisor: Prof Janet van Niekerk}
+    \vspace{5pt}
+    \resumeSubheading
+      {University of the Free State}{Jan 2026 to Oct 2026}
+      {Master of Science, Mathematical Statistics}{80\% (With Distinction) ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UV_ACADREC_S\%20\%28Baloyi\%20Thabang\%20MSc\%29.pdf}{\color{blue}\underline{Academic Record}}}
+    \vspace{5pt}
+    \resumeSubheading
+      {University of Cape Town}{Dec 2025}
+      {BSc Honours, Statistics and Data Science, minor in Actuarial Science}{74\% ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UCT\%20TRANSCRIPT\%202025.pdf}{\color{blue}\underline{Transcript}} ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/Proof\%20of\%20Qualification\%20-\%20BSc.\%20Hons\%20Statistics\%20and\%20Data\%20Sciences.pdf}{\color{blue}\underline{Proof of Qualification}}}
+      \resumeItemListStart
+            \resumeItem{\small{\textbf{Relevant coursework:} Financial Engineering and Loss Reserving (Value at Risk, Expected Shortfall, Merton and Jarrow-Lando-Turnbull credit risk models, term structure models, chain ladder and Bornhuetter-Ferguson reserving), Portfolio Theory, Time Series Analysis, Multivariate Statistics, Bayesian Statistics, Likelihood Theory, Supervised and Unsupervised Learning, Neural Networks, Statistical Computing}}
+      \resumeItemListEnd
+    \vspace{2pt}
+    \resumeSubheading
+      {University of Cape Town}{Dec 2022}
+      {Bachelor of Commerce, Management Studies}{70\% ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UCT\%20TRANSCRIPT\%202025.pdf}{\color{blue}\underline{Transcript}} ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UCT\%20CERTIFICATE.pdf}{\color{blue}\underline{Certificate}}}
+    \vspace{5pt}
+    \resumeSubheading
+      {University of the Free State}{2016 to 2017}
+      {Bachelor of Science, Actuarial Sciences \textup{(Incomplete)}}{Not completed ~\textbar~ \href{https://github.com/thabangTheActuaryCoder/Academic-Records/blob/master/UV\_ACADREC\_S\%202026.pdf}{\color{blue}\underline{Academic Record}}}
+\resumeSubHeadingListEnd
+\vspace{-2pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\vspace{4pt}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{\small{Quantitative \& Risk Modelling:}}{ \small{Statistical Modelling, Regression and Classification, Time Series Forecasting (ARIMA, SARIMA, VAR, GARCH), Monte Carlo Simulation, Value at Risk, Expected Shortfall, Credit Risk Models, Portfolio Theory and Backtesting, Multivariate and Bayesian Analysis, Linear and Mixed-Integer Programming}} \\
+      \vspace{1.2pt}
+
+     \textbf{\small{Model Lifecycle \& Testing:}}{ \small{Data Preparation and Validation, Out-of-Sample Testing, Model Monitoring (Drift and Performance), Root Cause Analysis, Unit and Regression Testing (pytest), Code Quality Controls (SonarQube), Auditable Decision Workflows}} \\
+      \vspace{1.2pt}
+
+     \textbf{\small{Programming:}}{ \small{Python, SQL, R, VBA, MATLAB, NumPy, pandas, scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, LaTeX}} \\
+      \vspace{1.2pt}
+
+     \textbf{\small{Reporting \& BI:}}{ \small{Advanced Microsoft Excel, Power BI, Tableau, Microsoft Office Suite, Automated Reporting Packs, KPI Dashboards, Data Storytelling}} \\
+      \vspace{1.2pt}
+
+     \textbf{\small{Explainable \& Generative AI:}}{ \small{Shapley Values (SHAP), Large Language Models, Retrieval-Augmented Generation, Agentic AI Workflows with Human Oversight}} \\
+      \vspace{1.2pt}
+
+     \textbf{\small{Data \& Cloud:}}{ \small{PostgreSQL, Snowflake, Amazon Redshift, Spark, PySpark, Databricks, dbt, Microsoft Fabric, Azure Data Factory, Azure, AWS, Docker, Git, GitHub Actions, Azure DevOps}}
+
+     }}
+ \end{itemize}
+ \vspace{-10pt}
+
+%-----------RESEARCH-----------
+\section{RESEARCH \& QUANTITATIVE PROJECTS}
+\vspace{4pt}
+\resumeItemListStart
+    \resumeItem{\small{\textbf{Understanding Health Insurance Cost Predictions Using Deep Neural Networks, Monte Carlo Simulation and Shapley Values} (MSc dissertation, UFS, 2026): benchmarked a deep neural network against a traditional pricing model and tree ensembles, simulated full predicted cost distributions by Monte Carlo, and used Shapley attribution to explain tail risk drivers.}}
+    \vspace{2pt}
+    \resumeItem{\small{\textbf{Mean-Variance Hedging with Neural Networks using VAR Sample Paths} (BSc Honours thesis, UCT, 2024, co-authored): fitted a VAR(11) model to equity log returns, simulated price paths and trained a neural hedging strategy for a spread option in an incomplete market. Benchmarked P\&L against Black-Scholes delta hedging.}}
+    \vspace{2pt}
+    \resumeItem{\small{\textbf{Portfolio Strategy Backtesting} (Portfolio Theory, UCT, 2024): backtested dynamic allocation across JSE equity, ALBI bonds and JIBAR cash (1994 to 2017), correcting Sharpe ratios for selection bias with the deflated Sharpe ratio and probability of backtest overfitting.}}
+    \vspace{2pt}
+    \resumeItem{\small{\textbf{Electricity Demand Forecasting} (Time Series Analysis, UCT, 2024): modelled hourly South African electricity demand with ARIMA, SARIMA and GARCH models, with forecast accuracy evaluation.}}
+\resumeItemListEnd
+\vspace{-4pt}
+
+%-----------QUALIFICATIONS & AWARDS-----------
+\section{PROFESSIONAL QUALIFICATIONS \& AWARDS}
+\vspace{4pt}
+\resumeItemListStart
+    \resumeItem{\small{CFA Level I (In Progress); Microsoft Certified: Fabric Data Engineer Associate (DP-700), 2026}}
+    \vspace{-3pt}
+    \resumeItem{\small{Actuarial Society of South Africa exemptions: A112 (Business Economics), A113 (Business Finance)}}
+    \vspace{-3pt}
+    \resumeItem{\small{Best Aggregate Average Actuarial Science and Dean's List, UFS; Golden Key; Moshal and Jurgen Klauss Bathe Scholarships}}
+\resumeItemListEnd
+
+\end{document}
